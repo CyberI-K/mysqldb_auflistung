@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Datenbanken</title>
+</head>
+<body>
+    <h1>Liste der Datenbanken</h1>
+    <ul>
+        {% for database in databases %}
+        <li>{{ database[0] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
